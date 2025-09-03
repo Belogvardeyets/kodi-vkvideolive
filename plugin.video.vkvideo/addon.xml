@@ -1,0 +1,15 @@
+<addon id="plugin.video.vkvideo"
+       name="VK Video Live"
+       version="0.0.2"
+       provider-name="TestDev">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary>VK Video Live categories viewer</summary>
+        <description>Смотрим трансляции из категорий VK Видео Live</description>
+        <platform>all</platform>
+    </extension>
+</addon>
